@@ -24,7 +24,6 @@ scrollUp.addEventListener("click", () => {
   });
 });
 
-// Formspree function
 
 // Dark theme toggle function
 

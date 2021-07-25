@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
 
+/* Variables */
 :root {
   --font-family: "Roboto", sans-serf;
   --normal-font: 400;
@@ -14,7 +15,9 @@
   --line-height: 1.7rem;
   --transition: 0.3s;
 }
+/* Variables end */
 
+/* CSS Resets */
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +48,9 @@ section {
   margin: auto; */
 }
 
+/* CSS Resets end */
+
+/* Navbar */
 nav {
   display: flex;
   align-items: center;
@@ -84,7 +90,9 @@ nav ul li {
   cursor: pointer;
   display: none;
 }
+/* Navbar ends */
 
+/* Hero section */
 .hero {
   display: flex;
   align-items: center;
@@ -113,7 +121,9 @@ nav ul li {
 .bio p {
   line-height: var(--line-height);
 }
+/* Hero section ends */
 
+/* More about */
 .more-about {
   background-color: var(--bg-1);
   padding: 1rem 6rem;
@@ -126,7 +136,9 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
 }
+/* More about ends */
 
+/* Skills section */
 .skills {
   max-width: 68.75rem;
   margin: auto;
@@ -146,7 +158,9 @@ nav ul li {
   width: 11.875rem;
   height: 11.25rem;
 }
+/* Skills section ends */
 
+/* Projects section */
 .projects {
   background-color: var(--bg-1);
   padding: 32px 0;
@@ -182,7 +196,9 @@ nav ul li {
   width: 65%;
   height: 60%;
 }
+/* Projects section ends */
 
+/* Contacts section */
 .contact {
   margin-top: 2rem;
 }
@@ -244,7 +260,9 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
+/* Contacts section ends */
 
+/* Social buttons */
 .socials {
   display: flex;
   flex-direction: column;
@@ -257,7 +275,9 @@ nav ul li {
   width: 2rem;
   height: 2rem;
 }
+/* Social button ends */
 
+/* Scroll to top button */
 .scroll-up {
   position: fixed;
   right: 0;
@@ -269,15 +289,18 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
+/* Scroll to top button ends */
 
+/* Footer section */
 footer {
   background-color: var(--bg-1);
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
 }
+/* Footer section ends */
 
-/* General */
+/* General (utilities) */
 .icon-card {
   background-color: #fff;
   border-radius: 11px;
@@ -294,6 +317,7 @@ footer {
   margin: 10px;
 }
 
+/* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
   nav {
     padding: 1.5rem 1rem;
@@ -331,6 +355,7 @@ footer {
 
   .bio {
     margin-top: -7rem;
+    width: 20.5rem;
   }
 
   .hero img {
@@ -365,11 +390,7 @@ footer {
   }
 
   .contact-form-container {
-    max-width: 20.75rem;
-  }
-
-  .bio {
-    width: 20.5rem;
+    max-width: 23.75rem;
   }
 }
 
@@ -377,5 +398,17 @@ footer {
   .hero img {
     height: 37.5rem;
     width: 23rem;
+  }
+
+  .bio {
+    width: 18.3rem;
+  }
+
+  .project-container {
+    width: 17.875rem;
+  }
+
+  .contact-form-container {
+    max-width: 17.75rem;
   }
 }
