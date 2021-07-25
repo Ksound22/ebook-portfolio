@@ -281,7 +281,7 @@ nav ul li {
 .scroll-up {
   position: fixed;
   right: 0;
-  bottom: 0;
+  bottom: 3%;
   cursor: pointer;
 }
 
