@@ -1,2 +1,41 @@
-# ebook-portfolio
-Portfolio website for the buyers of my little ebook
+
+# EBOOK PORTFOLIO
+
+A portfolio website template for those who bought my eBook, and the general public as well, especially beginners.
+
+
+## Authors
+
+- [@koladechris](https://www.twitter.com/koladechris)
+
+  
+## Sample Website
+
+A sample is already available via this [link](https://eager-williams-af0d00.netlify.app/?)
+## Tech Stack
+
+**Client:** HTML, CSS, Vanilla JavaSCript
+
+
+  
+## Tools Used
+
+Below are are list of tools used, and the precise things they were used for:
+
+- [Ion Icons](https://ionic.io/ionicons) for hambuger menu bar
+- [Drawkit](https://www.drawkit.io/) for Jane Doe illustration
+- [Icon8](https://icons8.com/) for animated icons and skills icons
+- [Animate CSS](https://animate.style/) for Jane Doe's bio animation
+- [Formspree](https://formspree.io/) for contact form submision and straight delivery to Gmail
+
+## Customization Guide
+
+The various sections in the HTML and CSS are well commented, so feel free to change whatever doesn't suit you need.
+
+The JavaScript functions are commented too, so you will know  what the functions and selections do.
+
+I used Ion Icons and Icons8 for the icons, but feel free to use fontawesome or any other icon library you want.
+
+For the form submission, formspree was used. You can get a hands-on tutorial on how to use formspree by watching this [YouTube video](https://formspree.io/). Submissions will be delivered straignt into the specified Gmail account.
+
+If you encounter problems customizing, reach out to me by sending me a DM on my [Twitter](https://www.twitter.com/koladechris).
