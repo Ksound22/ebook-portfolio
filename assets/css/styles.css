@@ -127,6 +127,7 @@ nav ul li {
 
 .bio p {
   line-height: var(--line-height);
+  padding: 0.3rem;
 }
 /* Hero section ends */
 
@@ -142,6 +143,7 @@ nav ul li {
 
 .more-about p {
   line-height: var(--line-height);
+  padding: 0.4rem;
 }
 /* More about ends */
 
@@ -189,6 +191,10 @@ nav ul li {
   text-align: center;
   width: 21.875rem;
   padding: 1rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
 }
 
 .project-title {
