@@ -1,23 +1,19 @@
-
 # EBOOK PORTFOLIO
 
 A portfolio website template for those who bought my eBook, and the general public as well, especially beginners.
 
-
 ## Authors
 
-- [@koladechris](https://www.twitter.com/koladechris)
+[@koladechris](https://www.twitter.com/koladechris)
 
-  
 ## Sample Website
 
 A sample is already available via this [link](https://eager-williams-af0d00.netlify.app/?)
+
 ## Tech Stack
 
 **Client:** HTML, CSS, Vanilla JavaSCript
 
-
-  
 ## Tools Used
 
 Below are are list of tools used, and the precise things they were used for:
@@ -32,7 +28,7 @@ Below are are list of tools used, and the precise things they were used for:
 
 The various sections in the HTML and CSS are well commented, so feel free to change whatever doesn't suit you need.
 
-The JavaScript functions are commented too, so you will know  what the functions and selections do.
+The JavaScript functions are commented too, so you will know what the functions and selections do.
 
 I used Ion Icons and Icons8 for the icons, but feel free to use fontawesome or any other icon library you want.
 
