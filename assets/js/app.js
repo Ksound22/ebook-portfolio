@@ -8,7 +8,6 @@ const scrollUp = document.querySelector("#scroll-up");
 
 // Select nav links
 const navLink = document.querySelectorAll(".nav-link");
-console.log(navLink);
 
 // Hamburger menu function
 burger.addEventListener("click", () => {
