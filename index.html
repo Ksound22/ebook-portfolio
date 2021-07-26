@@ -4,11 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <script
-      src="https://kit.fontawesome.com/f2a49ef33e.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Jane Doe | Web Developer</title>
   </head>
 
@@ -30,9 +47,9 @@
     </nav>
 
     <!-- Heror Section -->
-    <section class="hero">
+    <section class="hero" id="about">
       <img src="assets/images/wfh_1.svg" alt="jane-doe" class="hero-img" />
-      <div class="bio">
+      <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
@@ -63,11 +80,11 @@
     </section>
 
     <!-- Skills section -->
-    <section class="skills">
+    <section class="skills" id="skills">
       <h2 class="skill-header">My Top Skills</h2>
 
       <div class="skills-wrapper">
-        <div class="first-set">
+        <div class="first-set animate__animated animate__pulse">
           <img
             src="assets/icons/icons8-html-5.svg"
             alt=""
@@ -85,7 +102,7 @@
           />
         </div>
 
-        <div class="second-set">
+        <div class="second-set animate__animated animate__pulse">
           <img
             src="assets/icons/icons8-bootstrap.svg"
             alt=""
@@ -106,7 +123,7 @@
     </section>
 
     <!-- Projects section -->
-    <section class="projects">
+    <section class="projects" id="projects">
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
         <div class="project-container project-card">
@@ -155,18 +172,20 @@
     </section>
 
     <!-- Contact section -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <h2>Get In Touch With Me</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
             <div class="form-control">
               <label for="name">Name</label>
               <input
                 type="text"
                 id="name"
+                name="sender-name"
                 placeholder="Enter Your Name"
                 class="input-field"
+                required
               />
             </div>
             <div class="form-control">
@@ -174,8 +193,10 @@
               <input
                 type="email"
                 id="email"
+                name="sender-email"
                 placeholder="Enter Your Email"
                 class="input-field"
+                required
               />
             </div>
             <div class="form-control">
@@ -185,7 +206,9 @@
                 cols="60"
                 rows="10"
                 placeholder="Enter Your Message"
+                name="message"
                 class="input-field"
+                required
               ></textarea>
             </div>
             <input

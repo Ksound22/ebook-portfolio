@@ -6,8 +6,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-1: #fcfcfc;
-  --bg-2: #57606f;
+  --bg-color: #fcfcfc;
   --primary-color: #4756df;
   --secondary-color: #ff7235;
   --bottom-margin: 0.5rem;
@@ -16,6 +15,10 @@
   --transition: 0.3s;
 }
 /* Variables end */
+
+html {
+  scroll-behavior: smooth;
+}
 
 /* CSS Resets */
 * {
@@ -56,7 +59,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
-  background-color: var(--bg-1);
+  background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -125,7 +128,7 @@ nav ul li {
 
 /* More about */
 .more-about {
-  background-color: var(--bg-1);
+  background-color: var(--bg-color);
   padding: 1rem 6rem;
 }
 
@@ -162,7 +165,7 @@ nav ul li {
 
 /* Projects section */
 .projects {
-  background-color: var(--bg-1);
+  background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
 }
@@ -293,7 +296,7 @@ nav ul li {
 
 /* Footer section */
 footer {
-  background-color: var(--bg-1);
+  background-color: var(--bg-color);
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
@@ -324,7 +327,7 @@ footer {
   }
   nav ul {
     position: fixed;
-    background-color: var(--bg-1);
+    background-color: var(--bg-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
     flex-direction: column;
     top: 86px;
