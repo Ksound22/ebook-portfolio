@@ -8,6 +8,10 @@ A portfolio website template for those who bought my eBook, and the general publ
 
 [@koladechris](https://www.twitter.com/koladechris)
 
+## Github repo
+
+This is the [link](https://github.com/Ksound22/ebook-portfolio) to the Github repo of the project
+
 ## Sample Website
 
 A sample is already available via this [link](https://eager-williams-af0d00.netlify.app/?)
