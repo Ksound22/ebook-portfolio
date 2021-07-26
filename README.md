@@ -2,7 +2,7 @@
 
 A portfolio website template for those who bought my eBook, and the general public as well, especially beginners.
 
-![jane-doe](jane-shot.png)
+![jane-doe](portfolio/jane-shot.png)
 
 ## Authors
 
