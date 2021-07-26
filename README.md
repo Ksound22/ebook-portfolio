@@ -2,6 +2,8 @@
 
 A portfolio website template for those who bought my eBook, and the general public as well, especially beginners.
 
+![jane-doe](jane-shot.png)
+
 ## Authors
 
 [@koladechris](https://www.twitter.com/koladechris)
